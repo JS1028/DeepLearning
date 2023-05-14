@@ -21,12 +21,13 @@
 - Input: Red or NIR phase image of 'stained' stomach cancer tissue (1ch)
 - Output: RGB amplitude image of stained stomach cancer tissue (3ch)
  
-####Stitched image of the training input
+#### Stitched image of the training input
+![image](https://github.com/JS1028/DeepLearning/assets/109277474/623856d7-a46a-4c5d-af4a-4b67ebfeec2e)
 
-####Stitched image of the training output
+#### Stitched image of the training output
 
 
-####Stitched image of the training target
+#### Stitched image of the training target
 ![image](https://github.com/JS1028/DeepLearning/assets/109277474/3245e061-9ac2-48c9-9fed-344e9ff4e1b9)
 
 
@@ -39,8 +40,21 @@
 - test: NIR phase image of 'unstained' stomach cancer tissue
 
 
-- Stitching result of test input
+#### Network Structure
+![image](https://github.com/JS1028/DeepLearning/assets/109277474/63743cb4-bd80-4571-95c2-48391efa36a8)
 
-
-- Target image used for training
+#### Stitching result of test output
+  
+#### Target image used for training
 ![image](https://github.com/JS1028/DeepLearning/assets/109277474/3245e061-9ac2-48c9-9fed-344e9ff4e1b9)
+
+
+
+### CycleStain (ongoing)
+- unsupervised learning using CycleGAN
+- trained with 256x256 ROIs
+- Input: R phase image of 'stained' stomach cancer tissue (1ch)
+- Output: RGB amplitude image of 'stained' stomach cancer tissue (3ch)
+- Use two pretrained generators to calculate a new loss: Phase2Amp & Amp2Phase
+
+#### Network Structure
