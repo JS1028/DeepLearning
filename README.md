@@ -25,6 +25,7 @@
 ![image](https://github.com/JS1028/DeepLearning/assets/109277474/623856d7-a46a-4c5d-af4a-4b67ebfeec2e)
 
 #### Stitched image of the training output
+![image](https://github.com/JS1028/DeepLearning/assets/109277474/6dcddd72-a0de-49f5-928e-4038e71814d5)
 
 
 #### Stitched image of the training target
