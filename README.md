@@ -32,6 +32,8 @@
     
 
 
+
+
 ### 2. NIRStain
 - supervised learning using GAN
 - trained with 256x256 ROIs
@@ -48,6 +50,9 @@
 
 #### Target image used for training
 ![image](https://github.com/JS1028/DeepLearning/assets/109277474/3245e061-9ac2-48c9-9fed-344e9ff4e1b9)    
+    
+    
+    
     
     
 
