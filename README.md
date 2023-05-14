@@ -20,16 +20,12 @@
 - trained with 256x256 ROIs
 - Input: Red or NIR phase image of 'stained' stomach cancer tissue (1ch)
 - Output: RGB amplitude image of stained stomach cancer tissue (3ch)
-
-
+<br/>
 - Stitched image of the training input
-
-
-
+<br/>
 - Stitched image of the training output
 
-
-
+<br/>
 - Stitched image of the training target
 ![image](https://github.com/JS1028/DeepLearning/assets/109277474/3245e061-9ac2-48c9-9fed-344e9ff4e1b9)
 
