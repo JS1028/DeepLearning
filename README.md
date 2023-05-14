@@ -65,3 +65,5 @@
 - Use two pretrained generators to calculate a new loss: Phase2Amp & Amp2Phase    
 
 #### Network Structure
+![image](https://github.com/JS1028/DeepLearning/assets/109277474/a04b9f32-1fab-4584-bf7b-90c341d4b41a)
+
