@@ -14,7 +14,7 @@
 ![image](https://user-images.githubusercontent.com/109277474/213646998-183afcfb-2b06-4de0-bdfe-2cf07b695894.png)
 
 
-### PhaseStain
+### 1. PhaseStain
 - https://www.nature.com/articles/s41377-019-0129-y
 - supervised learning using GAN
 - trained with 256x256 ROIs
@@ -32,7 +32,7 @@
 
 
 
-### NIRStain
+### 2. NIRStain
 - supervised learning using GAN
 - trained with 256x256 ROIs
 - Input: NIR phase image of 'stained' stomach cancer tissue (1ch)
@@ -50,7 +50,7 @@
 
 
 
-### CycleStain (ongoing)
+### 3. CycleStain (ongoing)
 - unsupervised learning using CycleGAN
 - trained with 256x256 ROIs
 - Input: R phase image of 'stained' stomach cancer tissue (1ch)
