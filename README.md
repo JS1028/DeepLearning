@@ -21,14 +21,14 @@
 - Input: Red or NIR phase image of 'stained' stomach cancer tissue (1ch)
 - Output: RGB amplitude image of stained stomach cancer tissue (3ch)    
  
-#### Stitched image of the training input
+#### 1) Stitched image of the training input
 ![image](https://github.com/JS1028/DeepLearning/assets/109277474/623856d7-a46a-4c5d-af4a-4b67ebfeec2e)
 
-#### Stitched image of the training output
+#### 2) Stitched image of the training output
 ![image](https://github.com/JS1028/DeepLearning/assets/109277474/6dcddd72-a0de-49f5-928e-4038e71814d5)
 
 
-#### Stitched image of the training target
+#### 3) Stitched image of the training target
 ![image](https://github.com/JS1028/DeepLearning/assets/109277474/3245e061-9ac2-48c9-9fed-344e9ff4e1b9)
     
 
@@ -43,13 +43,13 @@
 - test: NIR phase image of 'unstained' stomach cancer tissue    
 
 
-#### Network Structure
+#### 1) Network Structure
 ![image](https://github.com/JS1028/DeepLearning/assets/109277474/63743cb4-bd80-4571-95c2-48391efa36a8)    
 
-#### Stitching result of test output
+#### 2) Stitching result of test output
 ![image](https://github.com/JS1028/DeepLearning/assets/109277474/539fe974-223f-464d-a7c6-cfc1db53fe81)    
 
-#### Target image used for training
+#### 3) Target image used for training
 ![image](https://github.com/JS1028/DeepLearning/assets/109277474/3245e061-9ac2-48c9-9fed-344e9ff4e1b9)    
     
     
@@ -64,6 +64,9 @@
 - Output: RGB amplitude image of 'stained' stomach cancer tissue (3ch)
 - Use two pretrained generators to calculate a new loss: Phase2Amp & Amp2Phase    
 
-#### Network Structure
+#### 1) Network Structure
 ![image](https://github.com/JS1028/DeepLearning/assets/109277474/a04b9f32-1fab-4584-bf7b-90c341d4b41a)
+
+#### 2) Results
+![image](https://github.com/JS1028/DeepLearning/assets/109277474/52fc056a-89a3-4dd5-9ad1-800ee54e1db3)
 
