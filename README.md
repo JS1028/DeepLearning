@@ -15,4 +15,29 @@
 
 
 ### PhaseStain
-- Input: 'Stained' phase image
+- https://www.nature.com/articles/s41377-019-0129-y
+- supervised learning using GAN
+- trained with 256x256 ROIs
+- Input: Red or NIR phase image of 'stained' stomach cancer tissue (1ch)
+- Output: RGB amplitude image of stained stomach cancer tissue (3ch)
+
+- Stitched image of the training input
+
+- Stitched image of the training output
+
+- Stitched image of the training target
+![image](https://github.com/JS1028/DeepLearning/assets/109277474/3245e061-9ac2-48c9-9fed-344e9ff4e1b9)
+
+
+
+### NIRStain
+- supervised learning using GAN
+- trained with 256x256 ROIs
+- Input: NIR phase image of 'stained' stomach cancer tissue (1ch)
+- Output: RGB amplitude image of stained stomach cancer tissue (3ch)
+- test: NIR phase image of 'unstained' stomach cancer tissue
+
+- Stitching result of test input
+
+- Target image used for training
+![image](https://github.com/JS1028/DeepLearning/assets/109277474/3245e061-9ac2-48c9-9fed-344e9ff4e1b9)
